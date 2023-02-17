@@ -1,5 +1,6 @@
 package com.example.memesapp
 
+import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -22,7 +23,8 @@ class MainActivity : AppCompatActivity() {
         getMeme()
 
         val button = findViewById<Button>(R.id.button)
-        button.setOnClickListener{ getMeme() }    }
+        button.setOnClickListener{ getMeme() }
+    }
 
     private fun getMeme() {
         val progressBar = findViewById<ProgressBar>(R.id.progressBar)

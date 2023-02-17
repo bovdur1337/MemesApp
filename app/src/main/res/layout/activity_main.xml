@@ -33,10 +33,11 @@
         android:layout_width="0dp"
         android:layout_height="80dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         android:layout_margin="32dp"
         android:text="@string/next_meme"
         android:background="@drawable/rounded_corners"
         android:textSize="23sp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
